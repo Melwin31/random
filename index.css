@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    filter: brightness(2.5);
+    z-index: 2;
+}
+.main{
+    background-color:blueviolet;
+    border-radius: 20px;
+    width:30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 300px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    z-index: 1;
+    border: 1px solid white;
+    color:black;
+    animation-name: bg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.var button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+@keyframes bg{
+    0%{
+        box-shadow: 15px 15px 50px  palevioletred;
+    }
+    25%{
+        box-shadow: 15px 15px 50px  mediumturquoise;
+    }
+    50%{
+        box-shadow: 15px 15px 50px  khaki;
+    }  
+    75%{
+        box-shadow: 15px 15px 50px   silver;
+    }
+    100%{
+        box-shadow: 15px 15px 50px   tomato;
+    }
+}
